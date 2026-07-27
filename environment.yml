@@ -1,0 +1,80 @@
+name: blockchain-fraud-detection
+
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.11
+
+  # Scientific Computing
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - plotly
+  - networkx
+
+  # Deep Learning
+  - pytorch
+  - torchvision
+  - torchaudio
+
+  # Development
+  - jupyterlab
+  - ipykernel
+  - pip
+
+  - pip:
+      # Graph Neural Networks
+      - torch-geometric
+
+      # Transformers
+      - transformers
+
+      # Dashboard
+      - streamlit
+
+      # API
+      - fastapi
+      - uvicorn
+      - pydantic
+
+      # Explainable AI
+      - shap
+      - lime
+
+      # Utilities
+      - tqdm
+      - pyyaml
+      - python-dotenv
+      - joblib
+      - requests
+      - loguru
+
+      # Blockchain
+      - web3
+      - eth-utils
+
+      # Graph Visualization
+      - pyvis
+
+      # Hyperparameter Optimization
+      - optuna
+
+      # Model Export
+      - onnx
+      - onnxruntime
+
+      # Experiment Tracking
+      - tensorboard
+
+      # Testing
+      - pytest
+
+      # Rich CLI
+      - rich
