@@ -1,0 +1,11 @@
+{
+  "test_auc": 0.9978325712767374,
+  "best_val_auc": 0.9965753191186991,
+  "label_map": {
+    "Ponzi": 0,
+    "Phishing": 1,
+    "Rug Pull": 2,
+    "Malicious Contract": 3,
+    "Legitimate": 4
+  }
+}
